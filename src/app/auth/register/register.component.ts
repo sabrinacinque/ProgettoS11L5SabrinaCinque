@@ -20,7 +20,7 @@ export class RegisterComponent {
   register() {
     if (this.registerForm && this.registerForm.valid) {
       this.authSvc.register(this.newUser).subscribe(() => {
-        alert("Registrazione avvenuta con successo");
+        alert("Registrazione avvenuta con successo.Verrai reindirizzato al login per entrare subito a far parte della nostra ciurma!");
 
         if (this.registerForm) {
           this.registerForm.resetForm(); // per pulire il form
@@ -28,7 +28,7 @@ export class RegisterComponent {
 
         this.router.navigate(['']); // torna alla home
       });
-    } 
+    }
   }
 
 }

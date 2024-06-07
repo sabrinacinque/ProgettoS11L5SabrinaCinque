@@ -17,6 +17,18 @@
       "password": "$2a$10$zVpb2oqYBtyBrHtQqq7e6uVj6oEvkdC1n.163WU/JHR1NGQeco07K",
       "nome": "admin2",
       "id": 3
+    },
+    {
+      "email": "admin4@admin4.com",
+      "password": "$2a$10$x2.aVhxkL3LwVbK.NCC6a.5jQPpycXHbstiaSu6t.hGzO8D4Ldu5m",
+      "nome": "admin4",
+      "id": 4
+    },
+    {
+      "email": "admin5@admin5.com",
+      "password": "$2a$10$qjj8OxkXLjdge5CxKtcau.xt0ivGd3/mKodYnnAgu.BoaXMVsayhK",
+      "nome": "admin5",
+      "id": 5
     }
   ],
   "movies-popular": [
@@ -93,48 +105,15 @@
   ],
   "favorites": [
     {
-      "userId": 1,
+      "userId": 5,
       "movie": {
-        "id": 2,
-        "title": "The Empire Strikes Back",
-        "poster_path": "https://th.bing.com/th/id/R.8a3da578451a78d022c0721d058aa87d?rik=Z2ouG2gmkVILBg&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2ffilmguide%2fimages%2f4%2f47%2fStar-wars-empire-strikes-back-poster.jpg%2frevision%2flatest%3fcb%3d20150217194710&ehk=FqWt4W7nNx5vrsP2JJNxuZJPgmL0pVmcgJNLUJaDNpE%3d&risl=&pid=ImgRaw&r=0",
-        "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
-        "release_date": "21/05/1980"
+        "id": 10,
+        "title": "Rogue One: A Star Wars Story",
+        "poster_path": "https://th.bing.com/th/id/R.cb9454db5273a0bad0fbc6732effc223?rik=npBCd9nrdI5tCQ&pid=ImgRaw&r=0",
+        "overview": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
+        "release_date": "16/12/2016"
       },
       "id": 1
-    },
-    {
-      "userId": 1,
-      "movie": {
-        "id": 1,
-        "title": "Star Wars: Episode IV - A New Hope",
-        "poster_path": "https://th.bing.com/th/id/R.d46f5b8395ed74011996d3afc8001d7c?rik=mcTk7olCnwZWLQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-wOFRnq-fGCQ%2fUqdSDks3K1I%2fAAAAAAAAAo0%2frYHNZgyVwQc%2fs1600%2fstar_wars_iv___a_new_hope___movie_poster_by_nei1b-d5t3cw9.jpg&ehk=y1jKPx2ju7bZPsNceCfV5ZoDB8SOai%2baCfw5nsrDwfI%3d&risl=&pid=ImgRaw&r=0",
-        "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
-        "release_date": "25/05/1977"
-      },
-      "id": 2
-    },
-    {
-      "userId": 3,
-      "movie": {
-        "id": 1,
-        "title": "Star Wars: Episode IV - A New Hope",
-        "poster_path": "https://th.bing.com/th/id/R.d46f5b8395ed74011996d3afc8001d7c?rik=mcTk7olCnwZWLQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-wOFRnq-fGCQ%2fUqdSDks3K1I%2fAAAAAAAAAo0%2frYHNZgyVwQc%2fs1600%2fstar_wars_iv___a_new_hope___movie_poster_by_nei1b-d5t3cw9.jpg&ehk=y1jKPx2ju7bZPsNceCfV5ZoDB8SOai%2baCfw5nsrDwfI%3d&risl=&pid=ImgRaw&r=0",
-        "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
-        "release_date": "25/05/1977"
-      },
-      "id": 3
-    },
-    {
-      "userId": 3,
-      "movie": {
-        "id": 2,
-        "title": "The Empire Strikes Back",
-        "poster_path": "https://th.bing.com/th/id/R.8a3da578451a78d022c0721d058aa87d?rik=Z2ouG2gmkVILBg&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2ffilmguide%2fimages%2f4%2f47%2fStar-wars-empire-strikes-back-poster.jpg%2frevision%2flatest%3fcb%3d20150217194710&ehk=FqWt4W7nNx5vrsP2JJNxuZJPgmL0pVmcgJNLUJaDNpE%3d&risl=&pid=ImgRaw&r=0",
-        "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
-        "release_date": "21/05/1980"
-      },
-      "id": 4
     }
   ]
 }
