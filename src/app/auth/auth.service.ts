@@ -105,4 +105,8 @@ export class AuthService {
     return this.http.get<iUser[]>(this.usersUrl);
   }
 
+  deleteUser(userId: number): Observable<void> {
+    return this.http.delete<void>(`${this.usersUrl}/${userId}`);
+  }
+
 }

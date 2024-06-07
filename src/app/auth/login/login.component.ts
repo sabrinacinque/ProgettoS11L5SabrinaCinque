@@ -2,6 +2,7 @@ import { Router } from '@angular/router';
 import { Component } from '@angular/core';
 import { iAuthData } from '../../Models/i-auth-data';
 import { AuthService } from '../auth.service';
+import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -20,12 +21,16 @@ export class LoginComponent {
     private router:Router
   ){}
 
-  login(){
+  login() {
     this.authSvc.login(this.authData)
-    .subscribe(()=>{
-      alert("login avvenuto con successo")
-      this.router.navigate(['/dashboard'])
-    })
+      .subscribe({
+        next: () => {
+          alert("Login avvenuto con successo");
+          this.router.navigate(['/dashboard']);
+        },
+        error: (error: HttpErrorResponse) => {
+         alert("Utente o password errati")
+        }
+      });
   }
-
 }

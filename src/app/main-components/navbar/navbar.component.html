@@ -28,6 +28,11 @@
           </button>
         </li>
         <li *ngIf="isLoggedIn" class="nav-item">
+          <button class="btn mx-5" routerLink="/profile" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <img src="../../../assets/img/profile.png"><h2 class="mt-2">Profilo</h2>
+          </button>
+        </li>
+        <li *ngIf="isLoggedIn" class="nav-item">
           <button (click)="logout()" class="btn mx-5" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
             <img src="../../../assets/img/logout.png"><h2 class="mt-2">Logout</h2>
           </button>
