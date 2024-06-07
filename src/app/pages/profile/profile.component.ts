@@ -31,8 +31,7 @@ export class ProfileComponent implements OnInit {
 
   deleteProfile() {
     this.authSvc.deleteUser(this.user.id).subscribe(() => {
-      this.authSvc.logout();
-      this.router.navigate(['/']);
+      this.authSvc.logoutAfterDeletion();
     });
   }
 }

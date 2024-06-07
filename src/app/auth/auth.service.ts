@@ -109,4 +109,11 @@ export class AuthService {
     return this.http.delete<void>(`${this.usersUrl}/${userId}`);
   }
 
+  logoutAfterDeletion(): void {
+    this.authSubject.next(null);
+    localStorage.removeItem('accessData');
+    alert("Profilo cancellato, verrai reindirizzato alla home.");
+    this.router.navigate(['/']);
+  }
+
 }
