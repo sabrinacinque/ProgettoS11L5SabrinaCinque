@@ -2,7 +2,7 @@
 ***PER IL PROF MICHELE***
 Come credenziali di accesso , la password è sempre la parola "password", scritta tutto in minuscolo .
 mentre le email variano in admin@admin.com ,oppure admin1@admin1.com ecc ( sono nel file db.json)
-Ho instalato anche sweetalert2 per i servizi di pop up.
+Ho installato anche sweetalert2 per i servizi di pop up.
 Dato che ho chiamato il sito Spotyfilm, mi sono ispirata per la dashboard un poco a spotify: spotify ha le tre colonne nella pagina principale.
 Nella colonna a sinistra ci sono gli altri utenti registrati che si possono vedere(quando compaiono però,l'utente che in quel momento fa il login non vede anche se stesso tra la lista degli utenti registrati ).
 Nella colonna centrale ci sono le locandine dei film con il tasto per metterle nei preferiti e vanno nella colonna d destra.Il tasto poi , se il film è nei preferiti, si disattiva.Ritorna cliccabile se togliamo quel film dai preferiti.
