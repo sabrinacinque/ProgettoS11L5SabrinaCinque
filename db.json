@@ -17,20 +17,26 @@
       "password": "$2a$10$zVpb2oqYBtyBrHtQqq7e6uVj6oEvkdC1n.163WU/JHR1NGQeco07K",
       "nome": "admin2",
       "id": 3
+    },
+    {
+      "email": "admin3@admin3.com",
+      "password": "$2a$10$hKlB3cCnr00p30shTTU9COcHZfnrAFAqxCi0tkmcGUC0rBRT3iZAy",
+      "nome": "admin3",
+      "id": 4
     }
   ],
   "movies-popular": [
     {
       "id": 1,
       "title": "Star Wars: Episode IV - A New Hope",
-      "poster_path": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "poster_path": "https://th.bing.com/th/id/R.d46f5b8395ed74011996d3afc8001d7c?rik=mcTk7olCnwZWLQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-wOFRnq-fGCQ%2fUqdSDks3K1I%2fAAAAAAAAAo0%2frYHNZgyVwQc%2fs1600%2fstar_wars_iv___a_new_hope___movie_poster_by_nei1b-d5t3cw9.jpg&ehk=y1jKPx2ju7bZPsNceCfV5ZoDB8SOai%2baCfw5nsrDwfI%3d&risl=&pid=ImgRaw&r=0",
       "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
       "release_date": "25/05/1977"
     },
     {
       "id": 2,
       "title": "The Empire Strikes Back",
-      "poster_path": "https://image.tmdb.org/t/p/w500/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
+      "poster_path": "https://th.bing.com/th/id/R.8a3da578451a78d022c0721d058aa87d?rik=Z2ouG2gmkVILBg&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2ffilmguide%2fimages%2f4%2f47%2fStar-wars-empire-strikes-back-poster.jpg%2frevision%2flatest%3fcb%3d20150217194710&ehk=FqWt4W7nNx5vrsP2JJNxuZJPgmL0pVmcgJNLUJaDNpE%3d&risl=&pid=ImgRaw&r=0",
       "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
       "release_date": "21/05/1980"
     },
@@ -51,21 +57,21 @@
     {
       "id": 5,
       "title": "Attack of the Clones",
-      "poster_path": "https://image.tmdb.org/t/p/w500/2vcNFtrZXNwIcBgH5e2xXCmVR8t.jpg",
+      "poster_path": "https://th.bing.com/th/id/OIP.hasJjJi7EFQdz2Nny_aJpwHaLH?rs=1&pid=ImgDetMain",
       "overview": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
       "release_date": "16/05/2002"
     },
     {
       "id": 6,
       "title": "Revenge of the Sith",
-      "poster_path": "https://image.tmdb.org/t/p/w500/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg",
+      "poster_path": "https://th.bing.com/th/id/R.32c99cf66f769d06cfa0a7da8277aa17?rik=NAhPhxI4vwH4uA&pid=ImgRaw&r=0",
       "overview": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
       "release_date": "19/05/2005"
     },
     {
       "id": 7,
       "title": "The Force Awakens",
-      "poster_path": "https://image.tmdb.org/t/p/w500/weUSwMdQIa3NaXVzwUoIIcAi85d.jpg",
+      "poster_path": "https://th.bing.com/th/id/R.d9084abb1684ab72a5b246af0a3cdbb7?rik=kuB4LUX%2fezwVcg&pid=ImgRaw&r=0",
       "overview": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
       "release_date": "18/12/2015"
     },
@@ -86,66 +92,10 @@
     {
       "id": 10,
       "title": "Rogue One: A Star Wars Story",
-      "poster_path": "https://image.tmdb.org/t/p/w500/5jX3p0apUG5bkMHtnKZch0xpng1.jpg",
+      "poster_path": "https://th.bing.com/th/id/R.cb9454db5273a0bad0fbc6732effc223?rik=npBCd9nrdI5tCQ&pid=ImgRaw&r=0",
       "overview": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
       "release_date": "16/12/2016"
     }
   ],
-  "favorites": [
-    {
-      "userId": 1,
-      "movie": {
-        "id": 1,
-        "title": "Star Wars: Episode IV - A New Hope",
-        "poster_path": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-        "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
-        "release_date": "25/05/1977"
-      },
-      "id": 9
-    },
-    {
-      "userId": 2,
-      "movie": {
-        "id": 2,
-        "title": "The Empire Strikes Back",
-        "poster_path": "https://image.tmdb.org/t/p/w500/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
-        "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
-        "release_date": "21/05/1980"
-      },
-      "id": 11
-    },
-    {
-      "userId": 2,
-      "movie": {
-        "id": 1,
-        "title": "Star Wars: Episode IV - A New Hope",
-        "poster_path": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-        "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
-        "release_date": "25/05/1977"
-      },
-      "id": 13
-    },
-    {
-      "userId": 2,
-      "movie": {
-        "id": 2,
-        "title": "The Empire Strikes Back",
-        "poster_path": "https://image.tmdb.org/t/p/w500/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
-        "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
-        "release_date": "21/05/1980"
-      },
-      "id": 14
-    },
-    {
-      "userId": 2,
-      "movie": {
-        "id": 4,
-        "title": "The Phantom Menace",
-        "poster_path": "https://image.tmdb.org/t/p/w500/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
-        "overview": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
-        "release_date": "19/05/1999"
-      },
-      "id": 16
-    }
-  ]
+  "favorites": []
 }

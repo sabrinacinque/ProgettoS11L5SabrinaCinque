@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../auth/auth.service';
 import { iUser } from '../../Models/i-user';
 import { iMovie } from '../../Models/i-movie';
@@ -9,21 +9,20 @@ import { MoviePreferitoService } from '../../movie-preferito.service';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.scss'
+  styleUrls: ['./dashboard.component.scss']
 })
-export class DashboardComponent {
+export class DashboardComponent implements OnInit {
 
-  user!:iUser;
+  user!: iUser;
   users: iUser[] = [];
-  movies:iMovie[] = [];
+  movies: iMovie[] = [];
   favorites: iMoviePreferiti[] = [];
 
   constructor(
-    private authSvc:AuthService,
+    private authSvc: AuthService,
     private movieSvc: MovieService,
     private moviePreferitoSvc: MoviePreferitoService
-
-  ){}
+  ) {}
 
   ngOnInit() {
     this.authSvc.user$.subscribe(user => {
@@ -59,6 +58,7 @@ export class DashboardComponent {
     };
     this.moviePreferitoSvc.addFavorite(favorite).subscribe(newFavorite => {
       this.favorites.push(newFavorite);
+      window.alert(`${movie.title} è stato aggiunto ai preferiti!`);
     });
   }
 
@@ -69,5 +69,9 @@ export class DashboardComponent {
         this.favorites = this.favorites.filter(fav => fav.movie.id !== movieId);
       });
     }
+  }
+
+  isFavorite(movie: iMovie): boolean {
+    return this.favorites.some(fav => fav.movie.id === movie.id);
   }
 }

@@ -1,64 +1,51 @@
-<div class="container-fluid mx-2">
-  <div class="row">
+<div class="container-fluid mx-2 bg-dash">
+  <div class="row mb-5">
+    <h1 class="text-center mt-3 mb-5 fs-1 text-white">Benvenuto {{user.nome}}</h1>
 
-
-    <h1 class="text-center mt-3 mb-5 fs-1">Benvenuto {{user.nome}}</h1>
-
-    <div class="col-3">
-      <h4>Utenti con la tua stessa passione</h4>
+    <div class="col-2 mx-auto bg-light bg-opacity-75">
+      <h4 class="text-center fs-2">Altri membri della ciurma con la tua stessa passione</h4>
       <ul *ngFor="let user of users" class="list-unstyled">
-        <li >
-          <p><strong>Username : </strong>{{ user.nome }} , <br><strong>Email : </strong>{{ user.email }}</p>
+        <li>
+          <p class="fs-2"><strong>Username : </strong>{{ user.nome }} , <br><strong>Email : </strong>{{ user.email }}</p>
         </li>
       </ul>
     </div>
 
-
-
-
-
     <div class="col-6 text-center">
-
       <h2>I tuoi dati </h2>
       <h4>Codice cliente : user{{user.id}}</h4>
       <h4>Username : {{user.nome}}</h4>
       <h4>La tua email : {{user.email}}</h4>
 
       <div class="row">
-        <div *ngFor="let movie of movies" class="col-6 card mb-5">
-          <img [src]="movie.poster_path" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">{{ movie.title }}</h5>
-            <p class="card-text">{{ movie.overview }}</p>
-            <p class="card-text">{{ movie.release_date }}</p>
-            <button (click)="addFavorite(movie)" class="btn btn-primary">Add to preferiti</button>
+        <div *ngFor="let movie of movies" class="col-12 col-md-6 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img [src]="movie.poster_path" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fs-3">{{ movie.title }}</h5>
+              <p class="card-text fs-4">{{ movie.overview }}</p>
+              <div class="mt-auto">
+                <p class="card-text fs-2">{{ movie.release_date }}</p>
+                <button (click)="addFavorite(movie)"
+                        [disabled]="isFavorite(movie)"
+                        class="btn btn-success fs-1 my-0 mx-0">
+                  <img src="../../../assets/img/addPref.png" alt="immaginePreferti" class="pref">
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
 
-
-
-
-
-
-
-    <div class="col-3">
-      <h4>I tuoi film preferiti</h4>
+    <div class="col-2 mx-auto bg-light bg-opacity-75">
+      <h4 class="fs-2 text-center">I tuoi film preferiti</h4>
       <ul>
-        <li *ngFor="let favorite of favorites">
-          <span>{{ favorite.movie.title }}</span>
-          <button (click)="removeFavorite(favorite.movie.id)" class="btn btn-danger btn-sm">Remove</button>
+        <li *ngFor="let favorite of favorites" class="d-flex flex-row align-items-center">
+          <span class="fs-3">- {{ favorite.movie.title }}</span>
+          <button (click)="removeFavorite(favorite.movie.id)" class="ms-2 btn btn-danger btn-sm fs-3"> X </button>
         </li>
       </ul>
     </div>
-
   </div>
-
-
 </div>
-
-
-
-
