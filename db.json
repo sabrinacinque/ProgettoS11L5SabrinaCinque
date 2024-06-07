@@ -91,5 +91,61 @@
       "release_date": "16/12/2016"
     }
   ],
-  "favorites": []
+  "favorites": [
+    {
+      "userId": 1,
+      "movie": {
+        "id": 1,
+        "title": "Star Wars: Episode IV - A New Hope",
+        "poster_path": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+        "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
+        "release_date": "25/05/1977"
+      },
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 2,
+        "title": "The Empire Strikes Back",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
+        "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+        "release_date": "21/05/1980"
+      },
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 1,
+        "title": "Star Wars: Episode IV - A New Hope",
+        "poster_path": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+        "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
+        "release_date": "25/05/1977"
+      },
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 2,
+        "title": "The Empire Strikes Back",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
+        "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+        "release_date": "21/05/1980"
+      },
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 4,
+        "title": "The Phantom Menace",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
+        "overview": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
+        "release_date": "19/05/1999"
+      },
+      "id": 16
+    }
+  ]
 }
