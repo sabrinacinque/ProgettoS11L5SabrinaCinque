@@ -5,6 +5,7 @@ import { iMovie } from '../../Models/i-movie';
 import { MovieService } from '../../movie.service';
 import { iMoviePreferiti } from '../../Models/i-movie-preferiti';
 import { MoviePreferitoService } from '../../movie-preferito.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-dashboard',
@@ -58,9 +59,15 @@ export class DashboardComponent implements OnInit {
     };
     this.moviePreferitoSvc.addFavorite(favorite).subscribe(newFavorite => {
       this.favorites.push(newFavorite);
-      window.alert(`${movie.title} è stato aggiunto ai preferiti!`);
+      Swal.fire({
+        title: 'Aggiunto ai Preferiti!',
+        text: `${movie.title} è stato aggiunto ai tuoi preferiti!`,
+        icon: 'success',
+        confirmButtonText: 'OK'
+      });
     });
   }
+
 
   removeFavorite(movieId: number) {
     const favoriteToRemove = this.favorites.find(fav => fav.movie.id === movieId);

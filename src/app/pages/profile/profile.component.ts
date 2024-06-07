@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../auth/auth.service';
 import { iUser } from '../../Models/i-user';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-profile',
@@ -23,10 +24,20 @@ export class ProfileComponent implements OnInit {
   }
 
   confirmDelete() {
-    const confirmed = window.confirm('Sei sicuro di voler cancellare il tuo profilo? Questa azione è irreversibile.');
-    if (confirmed) {
-      this.deleteProfile();
-    }
+    Swal.fire({
+      title: 'Sei sicuro?',
+      text: 'Questa azione è irreversibile!',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Sì, cancella il mio profilo!',
+      cancelButtonText: 'Annulla'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        this.deleteProfile();
+      }
+    });
   }
 
   deleteProfile() {

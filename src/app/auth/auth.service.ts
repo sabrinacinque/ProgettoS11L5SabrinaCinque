@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { iAuthData } from '../Models/i-auth-data';
 import { iAuthResponse } from '../Models/i-auth-response';
+import Swal from 'sweetalert2';
 
 @Injectable({
   providedIn: 'root'
@@ -56,15 +57,18 @@ export class AuthService {
     }))
   }
 
-  logout():void{
-    this.authSubject.next(null)
-    localStorage.removeItem('accessData')
-    alert("Logout effettuato con successo.Torna presto a trovarci!")
-
-    this.router.navigate(['/auth/login'])
-
+  logout(): void {
+    this.authSubject.next(null);
+    localStorage.removeItem('accessData');
+    Swal.fire({
+      title: 'Logout effettuato con successo',
+      text: 'Torna presto a trovarci!',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    }).then(() => {
+      this.router.navigate(['/auth/login']);
+    });
   }
-
   autoLogout():void{
 
     const accessData = this.getAccessData()
@@ -112,8 +116,14 @@ export class AuthService {
   logoutAfterDeletion(): void {
     this.authSubject.next(null);
     localStorage.removeItem('accessData');
-    alert("Profilo cancellato, verrai reindirizzato alla home.");
-    this.router.navigate(['/']);
+    Swal.fire({
+      title: 'Profilo cancellato',
+      text: 'Verrai reindirizzato alla home.',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    }).then(() => {
+      this.router.navigate(['/']);
+    });
   }
 
 }

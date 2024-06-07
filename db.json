@@ -114,6 +114,17 @@
         "release_date": "16/12/2016"
       },
       "id": 1
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "id": 1,
+        "title": "Star Wars: Episode IV - A New Hope",
+        "poster_path": "https://th.bing.com/th/id/R.d46f5b8395ed74011996d3afc8001d7c?rik=mcTk7olCnwZWLQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-wOFRnq-fGCQ%2fUqdSDks3K1I%2fAAAAAAAAAo0%2frYHNZgyVwQc%2fs1600%2fstar_wars_iv___a_new_hope___movie_poster_by_nei1b-d5t3cw9.jpg&ehk=y1jKPx2ju7bZPsNceCfV5ZoDB8SOai%2baCfw5nsrDwfI%3d&risl=&pid=ImgRaw&r=0",
+        "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
+        "release_date": "25/05/1977"
+      },
+      "id": 3
     }
   ]
 }
