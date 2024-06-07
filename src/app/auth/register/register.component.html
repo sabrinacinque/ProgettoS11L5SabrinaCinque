@@ -1,0 +1,13 @@
+<h1>Registrati</h1>
+
+<form #registerForm="ngForm" (ngSubmit)="register()">
+
+  <input type="text" name="nome" [(ngModel)]="newUser.nome" placeholder="Il tuo nome" class="form-control" required>
+
+  <input type="email" name="email" [(ngModel)]="newUser.email" placeholder="email" class="form-control mt-3" required>
+
+  <input type="password" name="password" [(ngModel)]="newUser.password" placeholder="password" class="form-control mt-3" required>
+
+  <button type="submit" class="btn btn-primary mt-3" [disabled]="registerForm.invalid">Registrati</button>
+
+</form>

@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$AxFJ1L7JEccbv6053iFDVO0Q6OMzpB3XSmc8Nunl2KD7CpDXfbxN6",
+      "nome": "admin",
+      "id": 1
+    },
+    {
+      "email": "admin1@admin1.com",
+      "password": "$2a$10$sU9ftuHVMbocBEaAFeGXY./aRXGvqvjwT.cAO3wNX15uKOTlYze1O",
+      "nome": "admin1",
+      "id": 2
+    },
+    {
+      "email": "admin2@admin2.com",
+      "password": "$2a$10$zVpb2oqYBtyBrHtQqq7e6uVj6oEvkdC1n.163WU/JHR1NGQeco07K",
+      "nome": "admin2",
+      "id": 3
+    }
+  ],
+  "movies-popular": [
+    {
+      "id": 1,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "poster_path": "https://image.tmdb.org/t/p/w500/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "overview": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue 17 years old 1P2R from the evil Darth Vader.",
+      "release_date": "25/05/1977"
+    },
+    {
+      "id": 2,
+      "title": "The Empire Strikes Back",
+      "poster_path": "https://image.tmdb.org/t/p/w500/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg",
+      "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+      "release_date": "21/05/1980"
+    },
+    {
+      "id": 3,
+      "title": "Return of the Jedi",
+      "poster_path": "https://image.tmdb.org/t/p/w500/mDCBQNhR6R0PVFucJl0O4Hp5klZ.jpg",
+      "overview": "Luke Skywalker battles Jabba the Hutt and Darth Vader to save his comrades in the Rebel Alliance and triumph over the Galactic Empire.",
+      "release_date": "25/05/1983"
+    },
+    {
+      "id": 4,
+      "title": "The Phantom Menace",
+      "poster_path": "https://image.tmdb.org/t/p/w500/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
+      "overview": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
+      "release_date": "19/05/1999"
+    },
+    {
+      "id": 5,
+      "title": "Attack of the Clones",
+      "poster_path": "https://image.tmdb.org/t/p/w500/2vcNFtrZXNwIcBgH5e2xXCmVR8t.jpg",
+      "overview": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+      "release_date": "16/05/2002"
+    },
+    {
+      "id": 6,
+      "title": "Revenge of the Sith",
+      "poster_path": "https://image.tmdb.org/t/p/w500/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg",
+      "overview": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+      "release_date": "19/05/2005"
+    },
+    {
+      "id": 7,
+      "title": "The Force Awakens",
+      "poster_path": "https://image.tmdb.org/t/p/w500/weUSwMdQIa3NaXVzwUoIIcAi85d.jpg",
+      "overview": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
+      "release_date": "18/12/2015"
+    },
+    {
+      "id": 8,
+      "title": "The Last Jedi",
+      "poster_path": "https://image.tmdb.org/t/p/w500/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg",
+      "overview": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+      "release_date": "15/12/2017"
+    },
+    {
+      "id": 9,
+      "title": "The Rise of Skywalker",
+      "poster_path": "https://image.tmdb.org/t/p/w500/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
+      "overview": "The surviving members of the resistance face the First Order once again, and the legendary conflict between the Jedi and the Sith reaches its peak bringing the Skywalker saga to its end.",
+      "release_date": "20/12/2019"
+    },
+    {
+      "id": 10,
+      "title": "Rogue One: A Star Wars Story",
+      "poster_path": "https://image.tmdb.org/t/p/w500/5jX3p0apUG5bkMHtnKZch0xpng1.jpg",
+      "overview": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.",
+      "release_date": "16/12/2016"
+    }
+  ],
+  "favorites": []
+}

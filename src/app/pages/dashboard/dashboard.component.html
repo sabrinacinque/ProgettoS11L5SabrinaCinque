@@ -1,0 +1,64 @@
+<div class="container-fluid mx-2">
+  <div class="row">
+
+
+    <h1 class="text-center mt-3 mb-5 fs-1">Benvenuto {{user.nome}}</h1>
+
+    <div class="col-3">
+      <h4>Utenti con la tua stessa passione</h4>
+      <ul *ngFor="let user of users" class="list-unstyled">
+        <li >
+          <p><strong>Username : </strong>{{ user.nome }} , <br><strong>Email : </strong>{{ user.email }}</p>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+
+    <div class="col-6 text-center">
+
+      <h2>I tuoi dati </h2>
+      <h4>Codice cliente : user{{user.id}}</h4>
+      <h4>Username : {{user.nome}}</h4>
+      <h4>La tua email : {{user.email}}</h4>
+
+      <div class="row">
+        <div *ngFor="let movie of movies" class="col-6 card mb-5">
+          <img [src]="movie.poster_path" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ movie.title }}</h5>
+            <p class="card-text">{{ movie.overview }}</p>
+            <p class="card-text">{{ movie.release_date }}</p>
+            <button (click)="addFavorite(movie)" class="btn btn-primary">Add to preferiti</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="col-3">
+      <h4>I tuoi film preferiti</h4>
+      <ul>
+        <li *ngFor="let favorite of favorites">
+          <span>{{ favorite.movie.title }}</span>
+          <button (click)="removeFavorite(favorite.movie.id)" class="btn btn-danger btn-sm">Remove</button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+
