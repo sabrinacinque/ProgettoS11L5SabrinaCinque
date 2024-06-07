@@ -1,0 +1,9 @@
+img {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease; // Aggiunge una transizione per l'animazione
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

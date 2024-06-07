@@ -1,13 +1,24 @@
-<h1>Registrati</h1>
+<div class="container-fluid bg-register text-center min-vh-100">
+  <div class="row flex-column align-items-center">
 
-<form #registerForm="ngForm" (ngSubmit)="register()">
+    <div class="col-6">
+      <h1 class="text-danger mt-5 register">Registrati</h1>
+    </div>
 
-  <input type="text" name="nome" [(ngModel)]="newUser.nome" placeholder="Il tuo nome" class="form-control" required>
+    <div class="col-4 mt-5">
+      <form #registerForm="ngForm" (ngSubmit)="register()">
 
-  <input type="email" name="email" [(ngModel)]="newUser.email" placeholder="email" class="form-control mt-3" required>
+        <input type="text" name="nome" [(ngModel)]="newUser.nome" placeholder="Il tuo nome utente" class="form-control fs-2" required>
 
-  <input type="password" name="password" [(ngModel)]="newUser.password" placeholder="password" class="form-control mt-3" required>
+        <input type="email" name="email" [(ngModel)]="newUser.email" placeholder="email" class="form-control mt-3 fs-2" required>
 
-  <button type="submit" class="btn btn-primary mt-3" [disabled]="registerForm.invalid">Registrati</button>
+        <input type="password" name="password" [(ngModel)]="newUser.password" placeholder="password" class="form-control mt-3 fs-2" required>
 
-</form>
+        <button type="submit" class="btn btn-dark mt-5 fs-1" [disabled]="registerForm.invalid">Registrati</button>
+
+      </form>
+    </div>
+
+  </div>
+
+</div>
