@@ -29,6 +29,12 @@
       "password": "$2a$10$qjj8OxkXLjdge5CxKtcau.xt0ivGd3/mKodYnnAgu.BoaXMVsayhK",
       "nome": "admin5",
       "id": 5
+    },
+    {
+      "email": "admin222@admin2.com",
+      "password": "$2a$10$kqO3wUpU6E4WKvGx9iwTyOesLPAPtcpUH/TH5pIMOxFPFbXbPe8PS",
+      "nome": "admin222@admin2.com",
+      "id": 6
     }
   ],
   "movies-popular": [
@@ -125,6 +131,39 @@
         "release_date": "25/05/1977"
       },
       "id": 3
+    },
+    {
+      "userId": 6,
+      "movie": {
+        "id": 3,
+        "title": "Return of the Jedi",
+        "poster_path": "https://image.tmdb.org/t/p/w500/mDCBQNhR6R0PVFucJl0O4Hp5klZ.jpg",
+        "overview": "Luke Skywalker battles Jabba the Hutt and Darth Vader to save his comrades in the Rebel Alliance and triumph over the Galactic Empire.",
+        "release_date": "25/05/1983"
+      },
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "movie": {
+        "id": 2,
+        "title": "The Empire Strikes Back",
+        "poster_path": "https://th.bing.com/th/id/R.8a3da578451a78d022c0721d058aa87d?rik=Z2ouG2gmkVILBg&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2ffilmguide%2fimages%2f4%2f47%2fStar-wars-empire-strikes-back-poster.jpg%2frevision%2flatest%3fcb%3d20150217194710&ehk=FqWt4W7nNx5vrsP2JJNxuZJPgmL0pVmcgJNLUJaDNpE%3d&risl=&pid=ImgRaw&r=0",
+        "overview": "After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+        "release_date": "21/05/1980"
+      },
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "movie": {
+        "id": 4,
+        "title": "The Phantom Menace",
+        "poster_path": "https://image.tmdb.org/t/p/w500/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
+        "overview": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
+        "release_date": "19/05/1999"
+      },
+      "id": 6
     }
   ]
 }
